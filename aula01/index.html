@@ -11,31 +11,40 @@
     <title>Aula 01 Bootstrap</title>
 
     <style>
-        .row [class^="col"]{
-            background-color: rgb(119, 145, 218);
-            border: 3px solid black;
+        .nav-link{
+            color: black;
         }
 
-        .row{
-            
-            background-color: blueviolet;
+        .navbar{
+            background-color: beige;
         }
+       
     </style>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row justify-content-evenly p-3">
-            <div class="col-md-3 my-2">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi id asperiores voluptatum totam sapiente, exercitationem error harum perspiciatis facere obcaecati nemo quasi? Totam facere dolore sed dolorum deserunt autem suscipit.
-            </div>
-            <div class="col-md-3 my-2">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi id asperiores voluptatum totam sapiente, exercitationem error harum perspiciatis facere obcaecati nemo quasi? Totam facere dolore sed dolorum deserunt autem suscipit.
-            </div>
-            <div class="col-md-3 my-2">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi id asperiores voluptatum totam sapiente, exercitationem error harum perspiciatis facere obcaecati nemo quasi? Totam facere dolore sed dolorum deserunt autem suscipit.
-            </div>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-5" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="color: black;"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5 ">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cases</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Clients</a>
+              </li>
+          </div>
         </div>
-    </div>  
+      </nav>
 
    
 
