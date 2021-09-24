@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>API Autocomplete</title>
+
+</head>
+
+<body>
+    <div class="container-fluid bg-dark">
+        <div class="row py-3">
+
+            <div class="col">
+                <h1 class="text-light display-4 text-center">API Autocomplete CEP</h1>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row pt-5 w-50 mx-auto">
+            <form class="col-md-7">
+                <div class="mb-3">
+                    <label for="cep" class="form-label">CEP</label>
+                    <input type="number" class="form-control" id="cep">
+                    <div id="emailHelp" class="form-text">Digite o CEP sem "-" <i>Ex:13175612</i></div>
+                </div>
+
+                <button type="button" class="btn btn-primary" id="btn-consulta">Consultar CEP</button>
+
+                <div class="mb-1 mt-4">
+                    <label for="rua" class="form-label">Rua</label>
+                    <input type="text" class="form-control" id="rua">
+                </div>
+                <div class="mb-1">
+                    <label for="bairro" class="form-label">Bairro</label>
+                    <input type="text" class="form-control" id="bairro">
+                </div>
+                <div class="mb-1">
+                    <label for="cidade" class="form-label">Cidade</label>
+                    <input type="text" class="form-control" id="cidade">
+                </div>
+            </form>
+            <div class="col-md-4 ms-md-4">
+                <p class="lead text-d">Projeto desenvolvido para estudo de integração da API de CEP.</p>
+                <p><a href="#" target="_black">API Utilizada</a></p>
+                <p><a href="#" target="_black">Ver como foi feito</a></p>
+                <p><a href="#" target="_black">Perfil do autor no Github</a></p>
+                <p>Projeto de estudo por Vinicius Barriquelo</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
