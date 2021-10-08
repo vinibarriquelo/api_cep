@@ -8,7 +8,7 @@ function consultaCep() {
 
   let requestURL = `https://viacep.com.br/ws/${cep}/json/`;
 
-  var request = new XMLHttpRequest();
+  let request = new XMLHttpRequest();
 
   request.open("GET", requestURL);
 
